@@ -1,0 +1,6 @@
+Number = input(" Enter your credit card number: ")
+CCV = input(" Enter the 3 digits on the back: ")
+Date_of_exp = input("Now, put the date of expiration: ")
+Company = input("Write the company which this credit card is affiliated with: ")
+print("Hello user, your credit card number is: " + Number + " , the 3 digits on the back are: " + CCV + " and the date of expiration is: " + Date_of_exp)
+confirmation = input("If the information listed above is true, please write YES; in other case, please write NO:  ")
